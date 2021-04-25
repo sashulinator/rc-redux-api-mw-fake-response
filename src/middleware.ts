@@ -7,7 +7,7 @@ import { StageFunctionName, Config } from '@savchenko91/rc-redux-api-mw/dist/typ
 type FakeResponseConfig = {
   enabled: true
   timeout?: number
-  reduxAPIMiddlewareConfig?: Config
+  reduxAPIMiddlewareConfig?: Config | null
 }
 
 const fakeResponseMiddleware = (config: FakeResponseConfig | null = null): Middleware<Dispatch<APIAction>> => {
