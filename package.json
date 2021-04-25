@@ -1,0 +1,57 @@
+{
+  "name": "@savchenko91/rc-redux-api-mw-fake-response",
+  "version": "1.0.2",
+  "private": false,
+  "main": "./dist",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/savchenko91/rc-redux-api-mw-fake-response"
+  },
+  "author": "Alexander Savchenko <savchenkoalexander91@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "rm -rf dist && npm run build"
+  },
+  "peerDependencies": {
+    "@savchenko91/rc-redux-api-mw": "^2.0.0",
+    "redux": "*"
+  },
+  "dependencies": {
+    "@types/qs": "^6.9.5",
+    "qs": "^6.9.6"
+  },
+  "devDependencies": {
+    "@savchenko91/rc-redux-api-mw": "^2.0.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-redux": "^7.1.15",
+    "@types/redux-mock-store": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "4.0.0",
+    "eslint-plugin-testing-library": "^3.9.2",
+    "eslint-webpack-plugin": "^2.1.0",
+    "prettier": "^2.2.1",
+    "redux": "^4.0.5",
+    "resolve": "1.18.1",
+    "ts-pnp": "1.2.0",
+    "typescript": "^4.0.3"
+  }
+}
