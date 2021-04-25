@@ -59,10 +59,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@savchenko91/rc-redux-api-mw@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@savchenko91/rc-redux-api-mw/-/rc-redux-api-mw-2.0.3.tgz#1da3967fc8426fc4b899d6cddb96d0a2cf3c47d1"
-  integrity sha512-BnIp3SyGT5LoVe/Ak3wzV2xFMIf2MTXLNCUP8bamijmMB+VBQ/1slPYPY1ydPnTAmPjV6T0lQDo61hEu7AXagg==
+"@savchenko91/rc-redux-api-mw@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@savchenko91/rc-redux-api-mw/-/rc-redux-api-mw-2.0.4.tgz#90c2ee4cfc53df98aaeb9947407d6a8af18b2c41"
+  integrity sha512-YGxX/GmEyPZMKT28Xizpa4uga8iSaJCuUzbUnjKskCQqe4Eh9h63C0M3JLu6Wh/ZbKK5d8g2koprlwJ8EzwI5A==
 
 "@testing-library/user-event@^12.1.10":
   version "12.8.3"
